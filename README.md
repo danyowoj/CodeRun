@@ -1,4 +1,5 @@
 # CodeRun
 Problem solutions from coderun.yandex.ru
 
-- [ ] **1. Юля, Никита и задачи**
+- [x] **1. Юля, Никита и задачи**
+- [ ] **2. Треугольник**
