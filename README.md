@@ -6,4 +6,5 @@ Problem solutions from coderun.yandex.ru
 - [x] **3. Больше своих соседей**
 - [x] **4. Выставление тегов**
 - [x] **5. 29 задача аналитики**
-- [ ] **6. OpenCalculator**
+- [x] **6. OpenCalculator**
+- [ ] **7. Количество слов в тексте**
