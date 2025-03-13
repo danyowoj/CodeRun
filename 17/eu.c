@@ -1,11 +1,9 @@
-#include <iostream>
-
-using namespace std;
+#include <stdio.h>
 
 int main()
 {
     int n, m, k;
-    cin >> n >> m >> k;
+    scanf("%d %d %d", &n, &m, &k);
     const int N = n, M = m, K = k;
 
     // построить матрицу
@@ -22,7 +20,7 @@ int main()
     for (int i = 0; i < K; i++)
     {
         // ввод
-        cin >> p >> q;
+        scanf("%d %d", &p, &q);
         p--;
         q--;
 
@@ -57,12 +55,12 @@ int main()
         }
     }
 
-    cout << "\n";
+    printf("\n");
     for (int i = 0; i < N; i++)
     {
         for (int j = 0; j < M; j++)
-            cout << field[i][j] << " ";
-        cout << "\n";
+            printf("%c ", field[i][j]);
+        printf("\n");
     }
 
     return 0;
