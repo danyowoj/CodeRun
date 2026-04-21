@@ -14,7 +14,7 @@ int main()
         unique_words.insert(word);
     }
 
-    std::cout << "Answer: " << unique_words.size() << std::endl;
+    std::cout << unique_words.size() << std::endl;
 
     return 0;
 }
